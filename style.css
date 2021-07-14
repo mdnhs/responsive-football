@@ -96,6 +96,10 @@ body {
   width: 100%;
 }
 
+article {
+  color: #6c6c6c;
+}
+
 .player {
   padding: 15px;
   background: white;
@@ -114,11 +118,12 @@ body {
   height: auto;
   grid-template-columns: repeat(2, 1fr);
 }
-.optional-banner h1 {
-  color: #000;
+#optional-title {
+  color: black;
   font-size: 48px;
 }
-.optional-banner p {
+
+.optional-banner article {
   margin-top: -40px;
   margin-bottom: 34px;
   margin-right: 34px;
@@ -245,13 +250,21 @@ footer {
   .optional-banner {
     grid-template-columns: repeat(1, 1fr);
   }
+
   .top-player,
   .optional-match {
     margin-top: 15%;
   }
+
   .title h1 {
     font-size: 2.5em;
   }
+
+  #optional-title {
+    font-size: 30px;
+    margin-bottom: 40PX;
+  }
+
   .top-player {
     width: 110%;
     margin-left: -5%;
@@ -285,7 +298,12 @@ footer {
   }
 
   .title h1 {
-    font-size: 5em;
+    font-size: 4em;
+  }
+
+  #optional-title {
+    font-size: 48px;
+    margin-bottom: 40PX;
   }
 
   .title a {
